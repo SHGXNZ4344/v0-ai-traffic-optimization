@@ -222,7 +222,7 @@ export default function PredictionDashboard() {
               <AlertCircle className="w-5 h-5 text-purple-400" />
               <h3 className="font-semibold text-purple-300">Anomaly Detection</h3>
             </div>
-            <p className="text-slate-300 text-sm">12 anomalies detected in last 24 hours with confidence > 90%</p>
+            <p className="text-slate-300 text-sm">{"12 anomalies detected in last 24 hours with confidence > 90%"}</p>
           </div>
 
           <div className="bg-gradient-to-br from-pink-900/20 to-pink-900/10 border border-pink-500/20 rounded-lg p-6">
