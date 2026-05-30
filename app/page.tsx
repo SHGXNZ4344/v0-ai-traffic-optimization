@@ -76,6 +76,36 @@ export default function Home() {
             >
               Feedback
             </a>
+            <a
+              href="/models/architecture"
+              className="px-4 py-2 rounded-lg font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-900 transition-all"
+            >
+              STGCN
+            </a>
+            <a
+              href="/dashboard/predictions"
+              className="px-4 py-2 rounded-lg font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-900 transition-all"
+            >
+              Predictions
+            </a>
+            <a
+              href="/dashboard/congestion"
+              className="px-4 py-2 rounded-lg font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-900 transition-all"
+            >
+              Congestion
+            </a>
+            <a
+              href="/dashboard/simulation"
+              className="px-4 py-2 rounded-lg font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-900 transition-all"
+            >
+              Simulation
+            </a>
+            <a
+              href="/dashboard/performance"
+              className="px-4 py-2 rounded-lg font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-900 transition-all"
+            >
+              Performance
+            </a>
           </div>
         </div>
       </nav>
